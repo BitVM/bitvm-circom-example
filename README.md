@@ -70,7 +70,7 @@ For testing purposes, however, it is more common to use fixed randomness.
 USE_FIXED_RANDOMNESS=1 snarkjs fflonk prove circuit.zkey witness.wtns proof.json public.json
 ```
 
-And if one wants to save the console output to a file, use `| & tee a.txt`.
+And if one wants to save the console output to a file, use `|& tee a.txt`.
 
 To check if the verifier will accept this proof, do:
 
