@@ -1,0 +1,148 @@
+[33;22m[WARN]  [39;1msnarkJS[0m: FFLONK is going to use fixed randomness for the proof generation. This means that the proof is not zero-knowledge.
+[32;22m[INFO]  [39;1msnarkJS[0m: FFLONK PROVER STARTED
+[32;22m[INFO]  [39;1msnarkJS[0m: > Reading witness file
+[32;22m[INFO]  [39;1msnarkJS[0m: > Reading zkey file
+[32;22m[INFO]  [39;1msnarkJS[0m: ----------------------------
+[32;22m[INFO]  [39;1msnarkJS[0m:   FFLONK PROVE SETTINGS
+[32;22m[INFO]  [39;1msnarkJS[0m:   Curve:         bn128
+[32;22m[INFO]  [39;1msnarkJS[0m:   Circuit power: 18
+[32;22m[INFO]  [39;1msnarkJS[0m:   Domain size:   262144
+[32;22m[INFO]  [39;1msnarkJS[0m:   Vars:          146329
+[32;22m[INFO]  [39;1msnarkJS[0m:   Public vars:   2
+[32;22m[INFO]  [39;1msnarkJS[0m:   Constraints:   146386
+[32;22m[INFO]  [39;1msnarkJS[0m:   Additions:     117004
+[32;22m[INFO]  [39;1msnarkJS[0m: ----------------------------
+[32;22m[INFO]  [39;1msnarkJS[0m: > Reading witness file data
+[32;22m[INFO]  [39;1msnarkJS[0m: > Reading Section 3. Additions
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing additions
+[32;22m[INFO]  [39;1msnarkJS[0m:     addition 100000/117004
+[32;22m[INFO]  [39;1msnarkJS[0m: > Reading Sections 12,13,14. Sigma1, Sigma2 & Sigma 3
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Reading Sigma polynomials 
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Reading Sigma evaluations
+[32;22m[INFO]  [39;1msnarkJS[0m: > Reading Section 16. Powers of Tau
+[32;22m[INFO]  [39;1msnarkJS[0m: 
+[32;22m[INFO]  [39;1msnarkJS[0m: > ROUND 1
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing A, B, C wire polynomials
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Reading data from zkey file
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing A ifft
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing B ifft
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing C ifft
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing A fft
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing B fft
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing C fft
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing T0 polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Reading sections 7, 8, 9, 10, 11. Q selectors
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing T0 evaluations
+[32;22m[INFO]  [39;1msnarkJS[0m:       T0 evaluation 100000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:       T0 evaluation 200000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:       T0 evaluation 300000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:       T0 evaluation 400000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:       T0 evaluation 500000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:       T0 evaluation 600000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:       T0 evaluation 700000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:       T0 evaluation 800000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:       T0 evaluation 900000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:       T0 evaluation 1000000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m: buffer T0: 1048576
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing T0 ifft
+[32;22m[INFO]  [39;1msnarkJS[0m: T0 length: 1048576
+[32;22m[INFO]  [39;1msnarkJS[0m: T0 degree: 786429
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing T0 / ZH
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing C1 polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing C1 multi exponentiation
+[32;22m[INFO]  [39;1msnarkJS[0m: > ROUND 2
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing challenges beta and gamma
+Blake3 input: 80ab839f980b0b9674498047525c2620ec69b59914a384b6aedb99849fc54bbf00000000000000000000000000000000b974ca610b172441d464158c95b2a0d100000000000000000000000000000000681949787a43d2a5e9cc7f591963a3ef93e25277e4d66279eb15590b16e81e35b4130c1f821454620ced1e0dbbdb6041
+Blake3 output: 0112d68f3c1d66dbc8009a2654f262a7275e583a921d068fd4b167003365ce1d
+Blake3 output as a field element: 485596931070696584921673007746559446164232583596250406637950679013042540061
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· challenges.beta: 485596931070696584921673007746559446164232583596250406637950679013042540061
+Blake3 input: 0112d68f3c1d66dbc8009a2654f262a7275e583a921d068fd4b167003365ce1d
+Blake3 output: 5af371034ff540ac876243113457de647144c164d8c70c67af54676decf693d1
+Blake3 output as a field element: 19250037324033436581569284153336383290774316882310310865823706333327285195728
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· challenges.gamma: 19250037324033436581569284153336383290774316882310310865823706333327285195728
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing Z polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing Z evaluations
+[32;22m[INFO]  [39;1msnarkJS[0m:     Z evaluation 100000/262144
+[32;22m[INFO]  [39;1msnarkJS[0m:     Z evaluation 200000/262144
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing Z ifft
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing Z fft
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing T1 polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing T1 evaluations
+[32;22m[INFO]  [39;1msnarkJS[0m:     T1 evaluation 100000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:     T1 evaluation 200000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:     T1 evaluation 300000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:     T1 evaluation 400000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:     T1 evaluation 500000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing T1 ifft
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing T1z ifft
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing T2 polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing T2 evaluations
+[32;22m[INFO]  [39;1msnarkJS[0m:     T2 evaluation 100000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:     T2 evaluation 200000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:     T2 evaluation 300000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:     T2 evaluation 400000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:     T2 evaluation 500000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:     T2 evaluation 600000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:     T2 evaluation 700000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:     T2 evaluation 800000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:     T2 evaluation 900000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m:     T2 evaluation 1000000/1048576
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing T2 ifft
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing T2 / ZH
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing T2z ifft
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing C2 polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing C2 multi exponentiation
+[32;22m[INFO]  [39;1msnarkJS[0m: > ROUND 3
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing challenge xi
+Blake3 input: 2a8f22906ec3a082cf11fd5ab2d686074910d91c5f0d9bd66b7271d9fcf693d09051ae9396ddf88f2dc314d39d1ff26ab6c2847fc3f5a25e302e3ce4534ec7ac
+Blake3 output: 1c05f88897f3a21862982118dc49123d38dc19af31dc29f3cbc5efd53a19a280
+Blake3 output as a field element: 12675309311304482509247823029963782393309524866265275290730041635615278736000
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S0.h0w8[0]:  10210594730394925429746291702746561332060256679615545074401657104125756649578
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S0.h0w8[1]:  8372804009848668687759614171560040965977592547922202747919047620642117005104
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S0.h0w8[2]:  12018168561098599325315012321442861121728268008555918380929453858170772126806
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S0.h0w8[3]:  16309511826969302107699393610404172200913629782896950912885458723657982725366
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S0.h0w8[4]:  11677648141444349792500114042510713756488107720800489269296547082450051846039
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S0.h0w8[5]:  13515438861990606534486791573697234122570771852493831595779156565933691490513
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S0.h0w8[6]:  9870074310740675896931393423814413966820096391860115962768750328405036368811
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S0.h0w8[7]:  5578731044869973114547012134853102887634734617519083430812745462917825770251
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S1.h1w4[0]:  1756820407515345004507058825871382296137098363972706405994173662850350774688
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S1.h1w4[1]:  16907152808936898292083477165412732098542037853664649778796264398384084027651
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S1.h1w4[2]:  20131422464323930217739346919385892792411266036443327937704030523725457720929
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S1.h1w4[3]:  4981090062902376930162928579844542990006326546751384564901939788191724467966
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S2.h2w3[0]:  8645910648030292747222447120598663930712351861448151482708581449066841434015
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S2.h2w3[1]:  2196608840183762817611603553419504245649898072887146050087043489198732467688
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S2.h2w3[2]:  11045723383625219657412355071239106912186114466080736810902579248310234593914
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S2.h3w3[0]:  21405568746311661929319138487394095463124289053215849061649274916682085734478
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S2.h3w3[1]:  16458699422327211795980147165837933894457139622322803085568450314170832928180
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· roots.S2.h3w3[2]:  5912217575039676719193525837282520819515300125293416540178683142298698328576
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· challenges.xi:    14814634099415170872937750660683266261347419959225231219985478027287965492246
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· challenges.xi: 14814634099415170872937750660683266261347419959225231219985478027287965492246
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing evaluations
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· challenges.xiw:    7186102579142880192293107579105947653300169770299942883323938904107905955608
+[32;22m[INFO]  [39;1msnarkJS[0m: > ROUND 4
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing challenge alpha
+Blake3 input: 1c05f88897f3a21862982118dc49123d38dc19af31dc29f3cbc5efd53a19a2800984dfd0eddd54c745567978028bfd897ab44557a92f25130aa43ee5930b374c1b60bf3803e64a6522103442a33e20822b74fcdd821881b09049fa5d15915185002fefbdf4a3d202927ca92136c802ad74e8c7cb5fe75e4d1b087a6ac610cb8d08b635aa610f247299d9e166bf438dbaa60efc8494ecbe6a28c2bd25bd1d0b33258007d2887e53cec1497173c2e27dcca5d26b0455ea6a0ff706b7d903c96f091b9447fd2f1ca01a45964f2c17246228677a10861a27ff0b532e0f8db4779015015344999e4ee75ff64540473197134a729bfb4cf36283a5a893656bac5340e023dad6c00cfde33904f887053179d0f3553c6c3f7cb5a8c6c80c791c74b68ab30ff160760d22790f29df44b735429ff99d7297f145a7c4c41be0e15236582eb800007ae155c5aded04e6a1314cbe86cb6bf1188f6c4d863ad90b4fb8f5ce8b1229ed17e27c4d9fb1797cdbe6102e4d5870a86a8192f5cd661dd948d640cd5dd0055dcf9039f8428d9bb8e5f8c0af917cf418368c62d28e31c5cac650565979ca13368d37a63346398f67a89e43065fd7abbaa24699a73b477da0fca9c373c49c2df4d053f59a0817d26d5b3c97125bc858917279ca34eb3f1a98da409999361c1abbe730af9166c08fd541c6f22eba2aeca426faa392391c7c1b1e61ab8f87e4
+Blake3 output: 4d9121c678b3807bc70ea48c60efd3a13c2f3e8309457835bb9a2d6c8103db4f
+Blake3 output as a field element: 13196272401875304388921830696024531900252495617961467853893732289110815791950
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· challenges.alpha: 13196272401875304388921830696024531900252495617961467853893732289110815791950
+[32;22m[INFO]  [39;1msnarkJS[0m: > Reading C0 polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing R0 polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing R1 polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing R2 polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing F polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing F polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing W1 multi exponentiation
+[32;22m[INFO]  [39;1msnarkJS[0m: > ROUND 5
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing challenge y
+Blake3 input: 1d2cd3539781e0520ebe5ed5df6e7b4413fb563a8f8c07a477b837d89103db4e00127ac3c93c113bcfca62c3851d65f35ec78cce9bdf661c4379efc45b2a620e
+Blake3 output: d0a7d5c415162d79b30566ec2aa0e94653f1139de9048b28588f77590615b05a
+Blake3 output as a field element: 6824639836122392703554190210911349683223362245243195922653951653214183338070
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· challenges.y: 6824639836122392703554190210911349683223362245243195922653951653214183338070
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing L polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· Computing L polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing ZT polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing ZTS2 polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing W' = L / ZTS2 polynomial
+[32;22m[INFO]  [39;1msnarkJS[0m: > Computing W' multi exponentiation
+[32;22m[INFO]  [39;1msnarkJS[0m: ··· challenges.xiN:    9539499652122301619680560867461437153480631573357135330838514610439758374056
+[32;22m[INFO]  [39;1msnarkJS[0m: FFLONK PROVER FINISHED
